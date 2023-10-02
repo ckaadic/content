@@ -214,7 +214,7 @@ script:
       - benignPositive
     - auto: PREDEFINED
       description: Relevant only for Alerts v2. Use this field to filter the alerts by the service or product that created this alert.
-      name: service_source
+      name: serviceSource
       predefined:
       - microsoftDefenderForEndpoint
       - microsoftDefenderForIdentity
